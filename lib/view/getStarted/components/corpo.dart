@@ -1,4 +1,4 @@
-import 'package:buyk_project/lists/getStarted.dart';
+import 'package:buyk_project/models/getStarted/listas.dart';
 import 'package:buyk_project/view/getStarted/components/paginacao.dart';
 import 'package:flutter/material.dart';
 

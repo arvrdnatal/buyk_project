@@ -1,5 +1,6 @@
 // import 'package:buyk_project/view/getStarted/tela.dart';
-import 'package:buyk_project/view/login/tela.dart';
+import 'package:buyk_project/view/cadastro/tela.dart';
+// import 'package:buyk_project/view/login/tela.dart';
 import 'package:flutter/material.dart';
 
 main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: const login(),
+      home: const cadastro(),
     );
   }
 }
