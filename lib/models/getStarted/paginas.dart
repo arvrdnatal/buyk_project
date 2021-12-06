@@ -19,7 +19,7 @@ class PaginaGetStarted extends StatelessWidget {
           color: flax,
           size: 100,
         ),
-        initialPagesText(texto),
+        titleText(texto),
       ],
     );
   }

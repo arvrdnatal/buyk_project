@@ -14,23 +14,23 @@ buttonText(String texto) {
   );
 }
 
-initialPagesText(String texto) {
+titleText(String texto, {Color? cor}) {
   return Text(
     texto,
     textAlign: TextAlign.center,
     style: GoogleFonts.raleway(
-      color: flax,
+      color: (cor != null) ? cor : flax,
       fontSize: 30,
     ),
   );
 }
 
 // tamanho
-text15(String texto) {
+text15(String texto, {Color? cor}) {
   return Text(
     texto,
     style: GoogleFonts.raleway(
-      color: flax,
+      color: (cor != null) ? cor : flax,
       fontSize: 15,
     ),
   );

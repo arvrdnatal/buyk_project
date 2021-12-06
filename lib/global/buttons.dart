@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 button(Function() funcao, Color cor, {String? texto, IconData? icon}) {
-  if (texto != null) {
+  if (texto != null && icon == null) {
     return TextButton(
       onPressed: funcao,
       style: TextButton.styleFrom(
@@ -15,7 +15,7 @@ button(Function() funcao, Color cor, {String? texto, IconData? icon}) {
       ),
       child: buttonText(texto),
     );
-  } else if (icon != null) {
+  } else if (icon != null && texto == null) {
     return IconButton(
       onPressed: funcao,
       icon: Icon(icon),
